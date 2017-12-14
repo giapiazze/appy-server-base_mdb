@@ -60,10 +60,12 @@ gulp.task('seed', [], function () {
 							description: "A user with full permissions."
 						}
 					];
+					Log.log("roles:", roles);
 					return RestHapi.create(models.role, roles, Log);
 				})
 				.then(function (result) {
 					roles = result;
+					Log.log("DB roles:", roles);
 					Log.log("seeding permissions");
 					permissions = [
 						{
@@ -389,7 +391,7 @@ function dropCollections(models) {
 	RestHapi.config.loglevel = "LOG";
 	const Log = RestHapi.getLogger("unseed");
 
-	Log.log("removing users");
+	Log.log("removing users NONO");
 	return models.user.remove({})
 		.then(function () {
 			Log.log("removing roles");
