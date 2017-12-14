@@ -25,7 +25,7 @@ const constants = {
 		SESSION: 'jwt-with-session',
 		REFRESH: 'jwt-with-session-and-refresh-token'
 	},
-	PORT: 8125,
+	PORT: 8000,
 	APP_TITLE: 'appy API'
 };
 
