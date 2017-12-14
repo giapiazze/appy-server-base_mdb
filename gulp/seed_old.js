@@ -152,7 +152,7 @@ gulp.task('seed', [], function () {
               lastName: 'Moschella',
               email: 'andrea.moschella@gmail.com',
               password: 'Natasha1978',
-              role: roles[2]._id,
+              role: roles[0]._id,
               isActive: true
             },
             {
@@ -160,7 +160,7 @@ gulp.task('seed', [], function () {
               lastName: 'Piazzesi',
               email: 'giapiazze@gmail.com',
               password: 'Pippone72.;',
-              role: roles[2]._id,
+              role: roles[0]._id,
               isActive: true
             }
           ];

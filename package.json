@@ -13,8 +13,8 @@
   "dependencies": {
     "bcryptjs": "^2.4.0",
     "boom": "^2.9.0",
+    "chalk": "^2.3.0",
     "confidence": "^3.0.2",
-    "chalk": "*",
     "dotenv": "^2.0.0",
     "glue": "^4.1.0",
     "gulp": "^3.9.1",
@@ -33,6 +33,6 @@
     "nodemailer-markdown": "^1.0.1",
     "q": "^1.4.1",
     "require-dir": "^0.3.2",
-    "rest-hapi": "latest"
+    "rest-hapi": "^0.38.0"
   }
 }
